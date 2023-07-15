@@ -1,36 +1,5 @@
 console.log("Welcome to 🌡️ Temperature Converter");
 
-// const tempLoad = () => {
-// 	let fa = document.getElementById("fa");
-// 	fa.innerHTML = "&#xf2cb";
-// 	fa.style.color = "#ffa41b";
-
-// 	setTimeout(() => {
-// 		fa.innerHTML = "&#xf2ca;";
-// 		fa.style.color = "#ffa41b";
-// 	}, 1000);
-
-// 	setTimeout(() => {
-// 		fa.innerHTML = "&#xf2c9;";
-// 	}, 2000);
-
-// 	setTimeout(() => {
-// 		fa.innerHTML = "&#xf2c8;";
-// 	}, 3000);
-
-// 	setTimeout(() => {
-// 		fa.innerHTML = "&#xf2c7;";
-// 		fa.style.color = "&#xf2c8;";
-// 	}, 4000);
-// };
-
-// setInterval(() => {
-// 	fa.style.color = "#ffa41b";
-// 	tempLoad();
-// }, 5000);
-
-// tempLoad();
-
 const calculateTemp = () => {
 	const numberTemp = document.getElementById("temp").value;
 	// console.log(numberTemp);
